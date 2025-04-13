@@ -19,7 +19,7 @@ const products = [
             "./assest/category/men1.jpg",
             "./assest/category/men2.jpg"
         ],
-        link:"../men/men.html",
+        link:"./men/men.html",
     },
     {
         title: "WATCHES",
@@ -30,7 +30,7 @@ const products = [
             "./assest/category/watch3.jpg",
             "./assest/category/watch4.jpg"
         ],
-        link:"../watches/watches.html",
+        link:"./watches/watches.html",
     },
     {
         title: "SHOES",
@@ -39,7 +39,7 @@ const products = [
             "./assest/category/shoes1.jpg",
             "./assest/category/shoes2.jpg"
         ],
-        link:"../shoes/shoes.html",
+        link:"./shoes/shoes.html",
     },
     {
         title: "BESTSELLERS",
@@ -58,7 +58,7 @@ const products = [
             "./assest/category/about2.jpg",
             "./assest/category/about3.jpg"
         ],
-        link:"../about/about.html",
+        link:"./about/about.html",
     },
     
 ];
