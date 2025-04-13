@@ -2,29 +2,28 @@
 <html lang="en">
 
 <head>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/summer-sale.css">
+    <link rel="stylesheet" href="./css/shop-nav.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/category.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    >
+    <script src="./java-script/load-product-category.js"></script>
 
+        <script>
+            window.onload = function () {
+                renderProducts();
+            };
 
-    <!DOCTYPE html>
-    <html lang="en">
+        </script>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/nav.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/summer-sale.css">
-        <link rel="stylesheet" href="./css/shop-nav.css">
-        <link rel="stylesheet" href="./css/common.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Home</title>
 
-        <title>Women Dresses</title>
-
-    </head>
+</head>
 
 <body>
     <header>
@@ -48,22 +47,33 @@
                     <div class="best"><button class="btn">SHOP BEST SELLERS</button></div>
                 </section>
             </div>
-            
+
         </div>
     </header>
 
     <div class="sticky-area">
         <div class="shop-nav">
             <div class="nav-align">
-                <div class="all"><button class="btn1" >ALL</button></div>
-                <div class="bestsellers"><button class="btn1">BESTSELLERS</button></div>
-                <div class="us"><button class="btn1">THE TEAM</button></div>
-                <div class="men"><button class="btn1">MEN</button></div>
-                <div class="women"><button class="btn1" onclick="window.open('./woman/dresses.html')">WOMEN</button></div>
-                <div class="watches"><button class="btn1">WATCHES</button></div>
-                <div class="shoes"><button class="btn1">SHOES</button></div>
+                <div class="all"><button class="btn1"
+                    onclick="window.location.href = 'home.html';">ALL</button></div>
+                <div class="bestsellers"><button class="btn1"
+                    onclick="window.location.href = './bestsellers/bestsellers.html';">BESTSELLERS</button></div>
+                <div class="us"><button class="btn1"
+                    onclick="window.location.href = './about/about.html';">THE TEAM</button></div>
+                <div class="men"><button class="btn1"
+                    onclick="window.location.href = './men/men.html';">MEN</button></div>
+                <div class="women"><button class="btn1"
+                        onclick="window.location.href = './women/women.html';">WOMEN</button></div>
+                        
+                <div class="watches"><button class="btn1"
+                    onclick="window.location.href = './watches/watches.html';">WATCHES</button></div>
+                <div class="shoes"><button class="btn1"
+                    onclick="window.location.href = './shoes/shoes.html';">SHOES</button></div>
             </div>
         </div>
+
+    </div>
+    <div class="product-category">
 
     </div>
 

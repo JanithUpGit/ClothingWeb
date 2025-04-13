@@ -20,4 +20,7 @@
 .see-more-btn button:hover{
     color: white;
     background-color: #4D71B9;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
 }

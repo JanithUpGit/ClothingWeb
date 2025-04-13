@@ -10,7 +10,12 @@
     margin-bottom: 20px; 
     break-inside: avoid; 
     position: relative;
+    padding:10px
   }
+.product-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
 
 .thambnail{
     margin: 10px;
@@ -24,8 +29,8 @@
     padding:2px 7px;
     position: absolute;
     z-index: 70;
-    top: 15px;
-    left: 15px;
+    top: 25px;
+    left: 25px;
     background-color: black;
     color:white;
     
@@ -34,6 +39,9 @@
 .thambnail-image{
     width: 100%;
     
+}
+.thambnail-image:hover{
+    cursor: pointer;
 }
 
 .product-details{
@@ -57,10 +65,10 @@
 
 .button-section{
     margin: 5px 10px 5px 11px;
-    height: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -83,37 +91,24 @@
 
 .buy-btn button{
     font-family: "Poppins", sans-serif;
-    font-weight:600;
-
+    font-weight:700;
     background-color: aliceblue;
-    padding:10px 35px;
-    background-color: black;
-    color: white;
-    
-}
-.buy-btn button:hover{
-    
-    background-color: rgb(102, 102, 102);
-    padding:10px 35px;
-    
-    color: white;
-    
-}
-
-.buy-btn button{
     font-size: 11pt;
     padding: 13px 45px;
+    border: 3px solid rgb(255, 255, 255);
+    height: 50px;
     background-color: black;
     color: white;
-    font-weight: 700;
-    border-radius: 0;
     
 }
+
+
 .buy-btn button:hover{
     background-color: transparent;
     color: black;
     padding: 13px 45px;
     font-weight: 700;
-    font-size: 11pt;
     border: 3px solid black;
+    cursor: pointer;
+    transition-duration: 0.3s;
 }
