@@ -4,7 +4,7 @@ const products = [
         title: "DAEGU COTTON COLLAR T-SHIRT",
         price: "Rs 11,794.92",
         save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/accessories/accessories1.jpg",
+        thumbnail: "../assest/men/shirts/ (1).jpeg",
         collection: "Casual Wear",
         about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
     },
@@ -12,7 +12,7 @@ const products = [
         title: "SEOUL FLORAL SUMMER DRESS",
         price: "Rs 9,499.50",
         save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/accessories/accessories2.jpg",
+        thumbnail: "../assest/men/shirts/ (2).jpg",
         collection: "Summer Collection",
         about: "Lightweight floral dress perfect for sunny days and vacations."
     },
@@ -20,7 +20,7 @@ const products = [
         title: "BUSAN LINEN WRAP DRESS",
         price: "Rs 10,999.00",
         save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/accessories/accessories3.jpg",
+        thumbnail: "../assest/men/shirts/ (3).jpg",
         collection: "Linen Essentials",
         about: "A breezy linen wrap dress that blends comfort with elegance."
     },
@@ -28,7 +28,7 @@ const products = [
         title: "JEJU PRINTED MAXI",
         price: "Rs 13,250.00",
         save: "SAVE RS 3,750.00",
-        thumbnail: "../assest/women/accessories/accessories4.jpg",
+        thumbnail: "../assest/men/shirts/ (4).jpeg",
         collection: "Maxi Dresses",
         about: "Printed maxi dress inspired by the coastal beauty of Jeju Island."
     },
@@ -36,7 +36,7 @@ const products = [
         title: "INCHEON CHECKED MIDI",
         price: "Rs 7,950.00",
         save: "SAVE RS 1,999.00",
-        thumbnail: "../assest/women/accessories/accessories5.jpg",
+        thumbnail: "../assest/men/shirts/ (5).jpeg",
         collection: "Workwear",
         about: "Midi dress with a checked pattern — classic and professional."
     },
@@ -44,7 +44,7 @@ const products = [
         title: "BUSAN LINEN WRAP DRESS",
         price: "Rs 10,999.00",
         save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/accessories/accessories6.jpg",
+        thumbnail: "../assest/men/shirts/ (6).jpeg",
         collection: "Linen Essentials",
         about: "Elegant wrap design with natural linen texture for breathable comfort."
     },
@@ -52,7 +52,7 @@ const products = [
         title: "BUSAN LINEN WRAP DRESS",
         price: "Rs 10,999.00",
         save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/accessories/accessories7.jpg",
+        thumbnail: "../assest/men/shirts/ (7).jpeg",
         collection: "Linen Essentials",
         about: "Refined version of the wrap dress, featuring premium stitching."
     },
@@ -60,7 +60,7 @@ const products = [
         title: "DAEGU COTTON COLLAR T-SHIRT",
         price: "Rs 11,794.92",
         save: "SAVE RS 3,334.95",
-        thumbnail: "../assest/women/accessories/accessories1.jpg",
+        thumbnail: "../assest/men/shirts/ (8).jpeg",
         collection: "Casual Wear",
         about: "A stylish cotton t-shirt with a buttoned collar for everyday comfort."
     },
@@ -68,7 +68,7 @@ const products = [
         title: "SEOUL FLORAL SUMMER DRESS",
         price: "Rs 9,499.50",
         save: "SAVE RS 2,000.00",
-        thumbnail: "../assest/women/accessories/accessories2.jpg",
+        thumbnail: "../assest/men/shirts/ (9).jpeg",
         collection: "Summer Collection",
         about: "Lightweight floral dress perfect for sunny days and vacations."
     },
@@ -76,7 +76,7 @@ const products = [
         title: "BUSAN LINEN WRAP DRESS",
         price: "Rs 10,999.00",
         save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/accessories/accessories3.jpg",
+        thumbnail: "../assest/men/shirts/ (10).jpeg",
         collection: "Linen Essentials",
         about: "A breezy linen wrap dress that blends comfort with elegance."
     },
@@ -84,7 +84,7 @@ const products = [
         title: "JEJU PRINTED MAXI",
         price: "Rs 13,250.00",
         save: "SAVE RS 3,750.00",
-        thumbnail: "../assest/women/accessories/accessories4.jpg",
+        thumbnail: "../assest/men/shirts/ (11).jpeg",
         collection: "Maxi Dresses",
         about: "Printed maxi dress inspired by the coastal beauty of Jeju Island."
     },
@@ -92,7 +92,7 @@ const products = [
         title: "INCHEON CHECKED MIDI",
         price: "Rs 7,950.00",
         save: "SAVE RS 1,999.00",
-        thumbnail: "../assest/women/accessories/accessories5.jpg",
+        thumbnail: "../assest/men/shirts/ (12).jpeg",
         collection: "Workwear",
         about: "Midi dress with a checked pattern — classic and professional."
     },
@@ -100,7 +100,7 @@ const products = [
         title: "BUSAN LINEN WRAP DRESS",
         price: "Rs 10,999.00",
         save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/accessories/accessories6.jpg",
+        thumbnail: "../assest/men/shirts/ (13).jpeg",
         collection: "Linen Essentials",
         about: "Elegant wrap design with natural linen texture for breathable comfort."
     },
@@ -108,7 +108,7 @@ const products = [
         title: "BUSAN LINEN WRAP DRESS",
         price: "Rs 10,999.00",
         save: "SAVE RS 2,500.00",
-        thumbnail: "../assest/women/accessories/accessories7.jpg",
+        thumbnail: "../assest/men/shirts/ (5).jpeg",
         collection: "Linen Essentials",
         about: "Refined version of the wrap dress, featuring premium stitching."
     },

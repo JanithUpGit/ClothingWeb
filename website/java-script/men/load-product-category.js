@@ -2,27 +2,27 @@
 const products = [
     {
         title: "MENS SHIRTS",
-        thumbnail: "../assest/women/category/dress5.webp",
+        thumbnail: "../assest/men/shirts/ (9).jpeg",
         link:"./shirts.html",
     },
     {
         title: "MENS SUITS",
-        thumbnail: "../assest/women/category/bottom.jpg",
+        thumbnail: "../assest/men/suits/(1).jpg",
         link:"./suits.html",
     },
     {
         title: "MENS PANTS",
-        thumbnail: "../assest/women/category/(9).jpg",
+        thumbnail: "../assest/men/pants/(1).jpg",
         link:"./pants.html",
     },
     {
         title: "MENS JACKETS",
-        thumbnail: "../assest/women/category/(8).jpg",
+        thumbnail: "../assest/men/jackets/(5).jpg",
         link:"./jackets.html",
     },
     {
         title: "MEN ACCESSORIES",
-        thumbnail: "../assest/women/category/accessories7.jpg",
+        thumbnail: "../assest/men/accessories/(1).jpg",
         link:"./accessories.html",
     },
     

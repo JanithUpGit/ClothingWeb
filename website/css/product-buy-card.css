@@ -10,7 +10,7 @@
 .product-buy-card {
     display: flex;
     margin-left: 20px;
-    gap: 40px;
+    
     width: 70%;
 
 }
@@ -24,8 +24,7 @@
 }
 
 .product-image img {
-    width: 100%;
-    height: auto;
+    width: 70%;
 }
 
 .product-info h1 {
