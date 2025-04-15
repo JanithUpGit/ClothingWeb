@@ -169,7 +169,6 @@ function createProductCard(product, index) {
     const card = document.createElement('div');
     card.classList.add('product-card');
 
-
     card.innerHTML = `
             <div class="thambnail" onclick="buyProduct(${index})">
                 <img class="thambnail-image" src="${product.thumbnail}">
