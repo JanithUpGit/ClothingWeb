@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+   
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.faq {
+    margin-bottom: 20px;
+}
+.faq h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.faq p {
+    line-height: 1.6;
+}
