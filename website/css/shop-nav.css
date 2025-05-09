@@ -53,3 +53,7 @@
 .shoes{
     display:none;
 }
+
+.bestsellers{
+    order: 99;
+}
