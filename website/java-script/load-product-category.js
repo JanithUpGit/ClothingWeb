@@ -67,8 +67,9 @@ const products = [
 function createProductCard(product) {
     const card = document.createElement('div');
     card.classList.add('category');
-
-    const imageId = `img-${Math.random().toString(36).substr(2, 9)}`;
+    const imageId = `img-${Math.random().toString().substr(2, 9)}`;
+    console.log(imageId);
+    
 
     card.innerHTML = `
         <div class="category-thambnail" onclick="window.location.href='${product.link}';">
@@ -81,6 +82,7 @@ function createProductCard(product) {
 
     let index = 0;
     const randomStartDelay = Math.random() * 3000 + 1000;
+    
 
     setTimeout(() => {
         setInterval(() => {
@@ -88,9 +90,7 @@ function createProductCard(product) {
             const imgElement = document.getElementById(imageId);
             if (imgElement) {
                 imgElement.classList.add('zoom-effect');
-                setTimeout(() => {
-                    imgElement.src = product.thumbnails[index];
-                }, 200);
+                setTimeout(() => { imgElement.src = product.thumbnails[index];}, 200);
                 setTimeout(() => {
                     imgElement.classList.remove('zoom-effect');
                 }, 2000);  

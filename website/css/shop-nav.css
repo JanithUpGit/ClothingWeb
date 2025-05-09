@@ -32,12 +32,12 @@
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 600;
-    border: 3px solid #41644A;
+    border: 3px solid #000000;
     ;
 }
 .shop-nav .btn1:hover{
     color: white;
-    background-color: #41644A;
+    background-color:  #e26420;
     cursor: pointer;
     transition-duration: 0.4s;
 }
@@ -45,4 +45,11 @@
     color: white;
     background-color: #2a3f68;
     cursor: pointer;
+}
+.us{
+    display:none;
+}
+
+.shoes{
+    display:none;
 }
